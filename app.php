@@ -1,7 +1,10 @@
 <?php
 
+
    @$operation = $_POST['op'];
    
+   include("app/system/php/modules/operations.php");
+
    if($operation == "login"){
 
    }elseif($operation == "quit"){
