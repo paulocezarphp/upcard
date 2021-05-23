@@ -1,25 +1,28 @@
 <?php
 
-   $theme_color = "basic";
+$theme = "theme_basic"; 
+$theme_color = "";
 
-   if($theme_color == "theme_basic"){
-
-   }elseif($theme_color == "theme_red"){
-
-   }elseif($theme_color == "theme_blue"){
-   	
-   }elseif($theme_color == "theme_yellow"){
-   	
-   }elseif($theme_color == "theme_green"){
-   	
-   }elseif($theme_color == "theme_red"){
-   	
-   }elseif($theme_color == "theme_purple"){
-   	
-   }elseif($theme_color == "theme_black"){
-   	
-   }elseif($theme_color == "theme_noturnal"){
-   	
-   }
+if($theme == "theme_basic"){
+   $theme_color = "";
+}elseif($theme == "theme_red"){
+   $theme_color = "";
+}elseif($theme == "theme_blue"){
+  $theme_color = "";
+}elseif($theme == "theme_yellow"){
+  $theme_color = "";
+}elseif($theme == "theme_green"){
+  $theme_color = "";
+}elseif($theme == "theme_red"){
+  $theme_color = "";
+}elseif($theme == "theme_purple"){
+  $theme_color = "";
+}elseif($theme == "theme_black"){
+  $theme_color = "";
+}elseif($theme == "theme_noturnal"){
+  $theme_color = "";
+}else{
+   $theme_color = "";
+}
 
 ?>
