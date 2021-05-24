@@ -10,6 +10,10 @@
     		<label class="install-label">Password User</label>
     		<input type="password" name="" class="install-input" autocomplete="off" placeholder="...">
     	</div>
+        <div class="install-item">
+            <label class="install-label">E-mail User</label>
+            <input type="email" name="" class="install-input" autocomplete="off" placeholder="...">
+        </div>
     	<hr>
     	<div class="install-item">
     		<label class="install-label">Database Name</label>

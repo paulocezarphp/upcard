@@ -12,7 +12,7 @@
     
     <?php
        
-       $system_install = true;
+       $system_install = false;
 
        if($system_install == false){
            include("app/system/page_install.php");

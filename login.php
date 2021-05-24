@@ -12,12 +12,19 @@
     
     <?php
        
-       $system_login = false;
+       $validate_login = false;
+       $system_install = false;
 
-       if($system_login == false){
-           include("app/system/page_login.php");
+       if($system_install == true){
+
+           if($validate_login == true){
+               header('Location: ./');
+           }else{
+               include("app/system/page_login.php");
+           }
+
        }else{
-           header('Location: ./');
+           header('Location: install');
        }
 
     ?>

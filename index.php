@@ -15,12 +15,19 @@
     
     <?php
        
-       $login_validate = true;
+       $system_install = false;
+       $login_validate = false;
 
-       if($login_validate == true){
+       if($system_install == true){
 
+          if($login_validate == true){
+             include("app/system/page_home.php");
+          }else{
+             header('Location: login');
+          }
+          
        }else{
-
+          header('Location: install');
        }
 
     ?>
